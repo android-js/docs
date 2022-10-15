@@ -49,3 +49,13 @@ An example of above code:
 ```js
 app.reload();
 ```
+
+#### `app.setDefaultFontSize(fontSize)`
+- `fontSize` Int
+
+Sets the given fontSize as default fontSize for the webview, still it can be overridden through CSS incase required. 
+
+An example of above code:
+```js
+app.setDefaultFontSize(20);
+```

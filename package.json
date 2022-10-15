@@ -3,7 +3,7 @@
   "version": "2.0.4",
   "description": "",
   "dependencies": {
-    "gitbook-plugin-variables": "^1.1.0"
+    "gitbook-cli": "^2.3.2"
   },
   "devDependencies": {},
   "scripts": {
