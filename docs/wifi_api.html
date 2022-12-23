@@ -658,7 +658,7 @@ android.permission.CHANGE_WIFI_STATE
     app.wifi.enable();
     setTimeout(resolve, <span class="hljs-number">5000</span>);
 }).then(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
-    available_networks = app.wifi.getScanResult();
+    available_networks = app.wifi.getScanResults();
     available_networks.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">network</span>)</span>{
         <span class="hljs-keyword">if</span>(network.SSID == <span class="hljs-string">&quot;test&quot;</span>){
             app.wifi.connect(network.SSID, <span class="hljs-string">&quot;&quot;</span>);
